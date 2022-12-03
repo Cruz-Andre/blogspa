@@ -1,3 +1,5 @@
+import NotFound from "Pages/NofFound/NotFound";
+import Post from "Pages/Post/Post";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
@@ -15,6 +17,7 @@ function AppRoutes() {
         <Route path="/" element={<StandardPage />}>
           <Route index element={<HomePage />} />
           <Route path="about" element={<AboutMe />} />
+          <Route path="posts/:id" element={<Post />} />
         </Route>
         
         {/* 
@@ -31,7 +34,7 @@ function AppRoutes() {
 
         */}
 
-        <Route path="*" element={<div>Pagina não encontrada</div>} />
+        <Route path="*" element={<NotFound/>} />
       </Routes>
 
       <Footer />
