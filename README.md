@@ -1,3 +1,11 @@
+# Site BlogPessoal (SPA) com React Router
+##  Alura curso: React - desenvolvendo em React Router com JavaScript
+- React Router
+- em JavaScript
+- Criação de componentes e pages
+
+#### Vercel Pages: em breve
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
