@@ -9,7 +9,7 @@ export default function Banner() {
       <div className={styles.apresentacao}>
         <h1 className={styles.titulo}>Olá, mundo!</h1>
         <p className={styles.paragrafo}>
-          Olá! Meu nome é Tício e este é o meu blog pessoal. Aqui você encontrará conteúdos sobre diversos assuntos que me interessam, como viagens, culinária, cultura, tecnologia e muito mais. Estou aqui para compartilhar minhas experiências e conhecimentos com vocês, além de discutir assuntos interessantes e relevantes. Espero que vocês gostem do que encontrarem aqui e que possam se divertir lendo meus posts. Obrigado por visitar! (texto criado por uma IA)
+        Olá! Meu nome é Raull Nueve e sou um desenvolvedor de front-end. Este blog é dedicado a compartilhar meus conhecimentos e experiências como desenvolvedor de front-end. Aqui, você encontrará informações sobre as últimas tendências e tecnologias de desenvolvimento web, bem como dicas e truques para ajudar você a melhorar suas habilidades de desenvolvimento. Espero que você encontre algo útil aqui e que possamos aprender juntos! (texto criado por uma I.A.)
         </p>
       </div>
       <div className={styles.imagens}>
