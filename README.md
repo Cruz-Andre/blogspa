@@ -3,6 +3,7 @@
 - React Router
 - em JavaScript
 - Criação de componentes e pages
+- Textos de apresentação e da página Sobre Mim gerados pela OpenAi
 
 #### Vercel Pages: em breve
 
