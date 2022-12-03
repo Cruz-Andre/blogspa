@@ -1,5 +1,10 @@
+import Banner from "components/Banner/Banner";
+
 export default function FrontPage() {
   return (
-    <h1>Olá Mundo</h1>
+    <main>
+      <Banner />
+      <h1>Olá Mundo</h1>
+    </main>
   )
 }
