@@ -37,12 +37,13 @@
 
 @media (max-width: 744px) {
   .fotoCapa, .titulo {
-      height: 104px;
+      height: 160px;
   }
 
   .titulo {
       padding: 0 1rem;
       font-size: 2rem;
+      line-height: normal;
   }
 
   .postConteudoContainer {

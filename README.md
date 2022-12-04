@@ -5,7 +5,7 @@
 - Criação de componentes e pages
 - Textos de apresentação e da página Sobre Mim gerados pela OpenAi
 
-#### Vercel Pages: em breve
+#### Vercel Pages: https://blogspa.vercel.app/
 
 # Getting Started with Create React App
 

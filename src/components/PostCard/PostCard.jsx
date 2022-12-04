@@ -1,7 +1,9 @@
+import Button from 'components/Button/Button'
 import { Link } from 'react-router-dom'
 import styles from './PostCard.module.css'
 
 export default function PostCard({ post }) {
+  
   return (
     <Link to={`/posts/${post.id}`}>
       <div className={styles.post}>
@@ -11,7 +13,9 @@ export default function PostCard({ post }) {
           alt='Imagem de capa do post'
         />
         <h2 className={styles.titulo}>{post.titulo}</h2>
-        <button className={styles.botaoLer}>Ler</button>
+        <Button>
+          Ler
+        </Button>
       </div>
     </Link>
   )

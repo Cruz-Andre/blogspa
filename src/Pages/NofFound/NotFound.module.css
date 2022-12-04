@@ -30,11 +30,12 @@
   text-align: start;
   margin-top: 3.5rem;
   margin-left: 30vw;
+  width: fit-content;
 }
 
 .imagemCachorro {
   position: absolute;
-  height: 25vw;
+  height: 22vw;
   bottom: calc(-30vw * 0.5);
   border-radius: 50%;
 }
@@ -84,7 +85,7 @@
   }
 
   .botaoContainer {
-      margin: 2.5rem 0 0;
+      margin: 2.5rem auto;
       text-align: center;
   }
 
